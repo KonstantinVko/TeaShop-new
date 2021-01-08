@@ -1,0 +1,367 @@
+body {
+    font-family: 'Open Sans';
+}
+
+header {
+    background: #669966;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrap {
+    width: 1300px;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header ul:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 18px;
+    color: #DFDFDF;
+}
+
+header ul:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* иконка корзины */
+header ul:last-child li i {
+    font-size: 20px;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.top-logo-search-info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.top-logo-search-info-block-upper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-and-info-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.top-logo-search-info-block svg {
+    width: 150px;
+    height: 60px;
+    align-self: center;
+}
+
+.top-logo-search-info-block input[type="search"] {
+    width: 341px;
+    height: 40px;
+    background: #F3F3F3;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 47px;
+    padding-left: 30px;
+}
+
+.top-logo-search-info-block-upper {
+    height: 150px;
+}
+
+.top-logo-search-info-block-upper ul {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    min-width: 169px;
+    justify-content: space-between;
+}
+
+.top-logo-search-info-block-upper li {
+    font-size: 16px;
+    color: #636363;
+}
+
+.top-logo-search-info-block-upper li:first-child {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3F3F3F;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top-logo-search-info-block-lower {
+    width: 732px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.top-logo-search-info-block-lower ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.line {
+    width: 732px;
+    height: 5px;
+    background: #F6F6F6;
+    border-radius: 26px;
+}
+
+.line span {
+    display: inline-block;
+    width: 41px;
+    height: 5px;
+    background: #669966;
+    border-radius: 26px;
+    position: relative;
+    top: -9px;
+}
+
+.top-logo-search-info-block-lower li {
+    font-size: 21px;
+    line-height: 29px;
+    color: #636363;
+}
+
+
+.top-slider {
+    margin: 100px auto 0;
+    width: 100%;
+    height: 516px;
+    background: url("../img/sho-puer-slider-1.jpg") bottom no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-slider-info-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    height: 270px;
+}
+
+.slider-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #3F3F3F;
+}
+
+.slider-text {
+    font-size: 18px;
+    color: #999999;
+    width: 400px;
+}
+
+.btn {
+    width: 305px;
+    height: 53px;
+    background: #669966;
+    border-radius: 42px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-section h3 {
+    margin: 100px 0 30px;
+    font-weight: bold;
+    font-size: 33px;
+    color: #3F3F3F;
+}
+
+.ps-top-block, .ps-bottom-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ps-top-block div:first-child {
+    width: 793px;
+    height: 323px;
+    background: url("../img/tea.jpg") bottom no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.ps-top-block div:last-child {
+    width: 387px;
+    height: 323px;
+    background: url("../img/coffe.jpg") bottom no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.ps-bottom-block div:first-child {
+    width: 387px;
+    height: 323px;
+    background: url("../img/sweets.jpg") bottom no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.ps-bottom-block div:nth-child(2) {
+    width: 488px;
+    height: 323px;
+    background: url("../img/atributes.jpg") bottom no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.ps-bottom-block div:last-child {
+    width: 285px;
+    height: 323px;
+    background: url("../img/sale.png") bottom no-repeat, #E7E7E7;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.product-section p {
+    font-weight: 600;
+    font-size: 27px;
+    color: #3F3F3F;
+    margin: 30px 25px;
+}
+
+.ps-top-block div:hover, .ps-bottom-block div:hover {
+    filter: drop-shadow(-10px -10px 20px rgba(245, 245, 245, 1));
+}
+
+.best-products {
+    margin-top: 100px;
+}
+
+.best-products-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-products h3 {
+    font-weight: bold;
+    font-size: 33px;
+    color: #3F3F3F;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.best-products-section > div {
+    width: 285px;
+    height: 555px;
+    box-shadow: 0 6px 7px 0px rgba(50, 50, 50, 0.39);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-head {
+    margin: 30px auto 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-star:after {
+    content: "4.7";
+    font-size: 18px;
+    color: #999999;
+    position: relative;
+    top: -4px;
+    right: -2px;
+}
+
+.product-star svg {
+    width: 24px;
+    height: 24px;
+}
+
+.product-heart svg {
+    width: 29px;
+    height: 26px;
+}
+
+.product-img {
+    width: 170px;
+    height: 170px;
+    background: url("../img/show-mey.png") no-repeat center;
+    margin: 0 auto;
+}
+.product-info {
+    width: 90%;
+    margin: 0 auto;
+}
+.product-title {
+    font-weight: 600;
+    font-size: 21px;
+    color: #3F3F3F;
+    margin-bottom: 15px;
+}
+.product-type-of-tea {
+    font-weight: 600;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+.product-description {
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+.product-price:before {
+    content: "100 гр. /";
+    font-size: 18px;
+}
+.product-price {
+    font-weight: 600;
+    font-size: 21px;
+    width: 90%;
+    margin: 0 auto;
+}
+.best-products-section .btn {
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+
