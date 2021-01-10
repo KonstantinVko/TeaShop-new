@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
@@ -21,9 +28,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TeaShop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NEW-TEA/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.tests.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,7 +68,18 @@
       <workItem from="1609870952247" duration="5020000" />
       <workItem from="1609876080397" duration="7378000" />
       <workItem from="1610092336632" duration="15859000" />
-      <workItem from="1610117316944" duration="551000" />
+      <workItem from="1610117316944" duration="708000" />
+      <workItem from="1610139107963" duration="2642000" />
+      <workItem from="1610143061217" duration="143000" />
+      <workItem from="1610143224577" duration="165000" />
+      <workItem from="1610143402093" duration="349000" />
+      <workItem from="1610143762683" duration="395000" />
+      <workItem from="1610186257438" duration="27000" />
+      <workItem from="1610186294815" duration="4492000" />
+      <workItem from="1610208965541" duration="1865000" />
+      <workItem from="1610309077996" duration="1603000" />
+      <workItem from="1610310713898" duration="209000" />
+      <workItem from="1610310935565" duration="6131000" />
     </task>
     <servers />
   </component>
@@ -52,14 +91,98 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1609883039888" />
-    <state x="954" y="425" key="FileChooserDialogImpl" timestamp="1610093911168">
+    <state x="714" y="344" key="#Notifications" timestamp="1610310480679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="954" y="425" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610093911168" />
-    <state x="733" y="394" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1609883217346">
+    <state x="714" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1610310480679" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610186816850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="394" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609883217346" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610186816850" />
+    <state x="767" y="202" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1610313159044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="202" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610313159044" />
+    <state x="954" y="425" key="FileChooserDialogImpl" timestamp="1610317071408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="954" y="425" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610317071408" />
+    <state width="1106" height="351" key="GridCell.Tab.0.bottom" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.0.center" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.0.left" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.0.right" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.1.bottom" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.1.center" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.1.left" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.1.right" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.2.bottom" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.2.center" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.2.left" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="351" key="GridCell.Tab.2.right" timestamp="1610310701227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="351" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610310701227" />
+    <state width="1106" height="378" key="GridCell.Tab.3.bottom" timestamp="1610309699618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="378" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610309699618" />
+    <state width="1106" height="378" key="GridCell.Tab.3.center" timestamp="1610309699617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="378" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610309699617" />
+    <state width="1106" height="378" key="GridCell.Tab.3.left" timestamp="1610309699617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="378" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610309699617" />
+    <state width="1106" height="378" key="GridCell.Tab.3.right" timestamp="1610309699618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1106" height="378" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610309699618" />
+    <state x="744" y="291" width="998" height="708" key="SettingsEditor" timestamp="1610316789342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="291" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610316789342" />
+    <state x="733" y="394" width="621" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1610144095429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="394" width="621" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610144095429" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1610310120686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610310120686" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610102685475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
