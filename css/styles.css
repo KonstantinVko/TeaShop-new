@@ -135,7 +135,7 @@ header ul:last-child li i {
     background: #669966;
     border-radius: 26px;
     position: relative;
-    top: -9px;
+    top: -13px;
 }
 
 .top-logo-search-info-block-lower li {
@@ -145,18 +145,89 @@ header ul:last-child li i {
 }
 
 
-.top-slider {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-slider, .carousel {
     margin: 100px auto 0;
     width: 100%;
-    height: 516px;
-    background: url("../img/sho-puer-slider-1.jpg") bottom no-repeat;
+    height: 478px;
+    /*background: url("../img/sho-puer-slider-1.jpg") bottom no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+}
+.w-100 {
+    width: 1300px;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/left-ar.png");
+    height: 3rem;
+    filter: drop-shadow(2px 4px 6px gray);
+}
+.carousel-control-next-icon {
+    background-image: url("../img/right-ar.png");
+    height: 3rem;
+    filter: drop-shadow(2px 4px 6px gray);
+}
+a[role="button"] {
+    height: 516px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top-slider-info-wrap {
+    position: relative;
+    bottom: 380px;
+    left: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -177,7 +248,7 @@ header ul:last-child li i {
     width: 400px;
 }
 
-.btn {
+.btn-green {
     width: 305px;
     height: 53px;
     background: #669966;
@@ -188,6 +259,7 @@ header ul:last-child li i {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .product-section {
@@ -277,7 +349,7 @@ header ul:last-child li i {
     justify-content: space-between;
 }
 
-.best-products h3,.products-onSale h3 {
+.best-products h3, .products-onSale h3 {
     font-weight: bold;
     font-size: 33px;
     color: #3F3F3F;
@@ -296,6 +368,7 @@ header ul:last-child li i {
     justify-content: space-between;
     margin-right: 20px;
 }
+
 .best-products-section > div:last-child, .products-onSale-section > div:last-child {
     margin-right: 0;
 }
@@ -332,39 +405,46 @@ header ul:last-child li i {
     height: 170px;
     margin: 0 auto;
 }
+
 .product-info {
     width: 90%;
     margin: 0 auto;
 }
+
 .product-title {
     font-weight: 600;
     font-size: 21px;
     color: #3F3F3F;
     margin-bottom: 15px;
 }
+
 .product-type-of-tea {
     font-weight: 600;
     font-size: 16px;
     color: #999999;
     margin-bottom: 5px;
 }
+
 .product-description {
     font-size: 14px;
     line-height: 19px;
     color: #999999;
 }
+
 .product-price:before {
     content: "100 гр. /";
     font-size: 18px;
     margin-right: 5px;
 }
-.product-price,.product-price-onSale {
+
+.product-price, .product-price-onSale {
     font-weight: 600;
     font-size: 21px;
     width: 90%;
     margin: 0 auto;
 }
-.best-products-section .btn,.products-onSale-section .btn {
+
+.best-products-section .btn-green, .products-onSale-section .btn-green {
     width: 90%;
     margin: 0 auto 20px;
 }
@@ -372,18 +452,23 @@ header ul:last-child li i {
 .best-products .product_1 .product-img {
     background: url("../img/show-mey.png") no-repeat center;
 }
+
 .best-products .product_2 .product-img {
     background: url("../img/uan-un.png") no-repeat center;
 }
+
 .best-products .product_3 .product-img {
     background: url("../img/bai-mu-dan.png") no-repeat center;
 }
+
 .best-products .product_4 .product-img {
     background: url("../img/lushan-un.png") no-repeat center;
 }
+
 .product-price-onSale {
     color: red;
 }
+
 .product-price-onSale:before {
     content: "20 BYR";
     text-decoration: line-through;
@@ -391,6 +476,7 @@ header ul:last-child li i {
     color: gray;
     margin: 0 5px;
 }
+
 .nav-buttons {
     width: 95%;
     height: 200px;
@@ -400,18 +486,23 @@ header ul:last-child li i {
     font-size: 50px;
     color: #669966;
 }
+
 .nav-buttons i:last-child {
     margin-left: 50px;
 }
+
 .products-onSale .product_1 .product-img {
     background: url("../img/show-mey.png") no-repeat center;
 }
+
 .products-onSale .product_2 .product-img {
     background: url("../img/uan-un.png") no-repeat center;
 }
+
 .products-onSale .product_3 .product-img {
     background: url("../img/bai-mu-dan.png") no-repeat center;
 }
+
 .products-onSale .product_4 .product-img {
     background: url("../img/lushan-un.png") no-repeat center;
 }
@@ -426,6 +517,7 @@ header ul:last-child li i {
     justify-content: center;
     align-items: center;
 }
+
 .bottom-subscribe-banner-wrap {
     display: flex;
     flex-direction: column;
@@ -434,12 +526,14 @@ header ul:last-child li i {
     width: 70%;
     height: 300px;
 }
+
 .bottom-subscribe-banner-title {
     width: 415px;
     font-weight: bold;
     font-size: 30px;
     color: #3F3F3F;
 }
+
 .bottom-subscribe-banner input[type="email"] {
     width: 325px;
     height: 53px;
@@ -448,7 +542,8 @@ header ul:last-child li i {
     padding-left: 30px;
     border: 1px solid #EAEAEA;
 }
-.email-input-block .btn {
+
+.email-input-block .btn-green {
     width: 203px;
     height: 53px;
     background: #669966;
@@ -457,15 +552,18 @@ header ul:last-child li i {
     bottom: 55px;
     left: 250px;
 }
+
 .email-input-block {
     height: 55px;
 }
+
 footer {
     background: #4F6C4F;
     height: 339px;
     display: flex;
     align-items: center;
 }
+
 .footer-wrap {
     margin: 0 auto;
     width: 1300px;
@@ -473,15 +571,18 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 footer .logo-and-socials {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
 }
+
 footer .logo-and-socials svg {
     align-self: flex-start;
 }
+
 .footer-socials {
     display: flex;
     font-size: 45px;
@@ -489,11 +590,13 @@ footer .logo-and-socials svg {
     width: 200px;
     justify-content: space-between;
 }
+
 .footer-wrap > ul li {
     margin-bottom: 10px;
     font-size: 18px;
     color: #DFDFDF;
 }
+
 .footer-wrap > ul li:first-child {
     color: #FFFFFF;
     margin-bottom: 15px;
@@ -505,13 +608,16 @@ footer .logo-and-socials svg {
     justify-content: space-between;
     height: 200px;
 }
+
 .footer-wrap .phone-and-address ul li {
     margin-bottom: 10px;
     color: #DFDFDF;
 }
+
 .footer-wrap .phone-and-address ul li:first-child {
     color: white;
 }
+
 .footer-wrap .phone-and-address i {
     margin-right: 5px;
 }
