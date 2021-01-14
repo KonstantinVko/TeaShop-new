@@ -8,17 +8,39 @@ header {
     display: flex;
     justify-content: center;
 }
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
-.header-wrap {
-    width: 1300px;
-    height: 81px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
     padding: 0 50px;
 }
 
-header ul:first-child {
+.navbar-brand {
+    display: none;
+}
+
+nav {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav svg {
+    display: none;
+    margin: 8px;
+    width: 150px;
+    height: 54px;
+}
+
+.navbar-nav {
+    height: 64px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-nav ul:first-child {
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -26,7 +48,7 @@ header ul:first-child {
     color: #DFDFDF;
 }
 
-header ul:last-child {
+.navbar-nav ul:last-child {
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -35,15 +57,19 @@ header ul:last-child {
     color: #FFFFFF;
 }
 
+.m-version-icons {
+    display: none;
+
+}
 /* иконка корзины */
 header ul:last-child li i {
     font-size: 20px;
 }
 
-
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .top-logo-search-info-block {
@@ -135,7 +161,7 @@ header ul:last-child li i {
     background: #669966;
     border-radius: 26px;
     position: relative;
-    top: -13px;
+    top: -9px;
 }
 
 .top-logo-search-info-block-lower li {
@@ -145,83 +171,37 @@ header ul:last-child li i {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .top-slider, .carousel {
     margin: 100px auto 0;
     width: 100%;
     height: 478px;
-    /*background: url("../img/sho-puer-slider-1.jpg") bottom no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
+
 .w-100 {
     width: 1300px;
 }
+
 .carousel-control-prev-icon {
     background-image: url("../img/left-ar.png");
     height: 3rem;
     filter: drop-shadow(2px 4px 6px gray);
 }
+
 .carousel-control-next-icon {
     background-image: url("../img/right-ar.png");
     height: 3rem;
     filter: drop-shadow(2px 4px 6px gray);
 }
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
 a[role="button"] {
     height: 516px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .top-slider-info-wrap {
@@ -338,9 +318,10 @@ a[role="button"] {
     filter: drop-shadow(-10px -10px 20px rgba(245, 245, 245, 1));
 }
 
-.best-products {
+.best-products, .products-onSale {
     margin-top: 100px;
 }
+
 
 .best-products-section, .products-onSale-section {
     width: 90%;
@@ -360,6 +341,7 @@ a[role="button"] {
 
 .best-products-section > div, .products-onSale-section > div {
     width: 285px;
+    min-width: 240px;
     height: 555px;
     box-shadow: 0 6px 7px 0px rgba(50, 50, 50, 0.39);
     border-radius: 20px;
@@ -386,7 +368,7 @@ a[role="button"] {
     font-size: 18px;
     color: #999999;
     position: relative;
-    top: -4px;
+    top: 3px;
     right: -2px;
 }
 
@@ -409,6 +391,13 @@ a[role="button"] {
 .product-info {
     width: 90%;
     margin: 0 auto;
+}
+
+.product-info-big {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
 }
 
 .product-title {
@@ -511,7 +500,7 @@ a[role="button"] {
     margin: 100px auto 0;
     width: 100%;
     height: 516px;
-    background: url("../img/bottom-banner-pic.png") no-repeat;
+    background: url("../img/bottom-banner-pic.png") no-repeat top;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -622,4 +611,109 @@ footer .logo-and-socials svg {
     margin-right: 5px;
 }
 
+@media all and (max-width: 1300px) {
+    .best-products-section, .products-onSale-section {
+        width: 100%;
+    }
+}
 
+@media all and (max-width: 1060px) {
+    .navbar {
+        padding: 0 10px;
+    }
+    .best-products-section, .products-onSale-section {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 510px;
+    }
+
+    .product-head {
+        display: none;
+    }
+
+    .product-description {
+        display: none;
+    }
+
+    .best-products-section > div, .products-onSale-section > div {
+        width: 49%;
+        height: 240px;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+        margin-right: 0;
+    }
+
+    .product-info-big {
+        width: 50%;
+        height: 170px;
+    }
+
+    .product-info-big .btn-green {
+        margin-bottom: 0;
+    }
+
+    .product-price-onSale:before {
+        content: "\A 20 BYR";
+        white-space: pre;
+    }
+
+    .top-slider-info-wrap {
+        left: 218px;
+    }
+
+    .top-logo-search-info-block {
+        padding: 0;
+    }
+
+    .footer-wrap {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .navbar-brand  {
+        display: block;
+    }
+    nav svg {
+        display: block;
+    }
+    nav ul:first-child {
+        flex-direction: column;
+        margin: 30px;
+        width: auto;
+    }
+    nav ul:first-child li, nav ul:last-child li {
+        margin-bottom: 10px;
+    }
+    nav ul:last-child {
+        margin: 0 30px 30px;
+    }
+    .navbar-nav {
+        height: unset;
+        align-items: flex-start;
+    }
+    .m-version-icons {
+        display: block;
+        margin-right: 50px;
+    }
+    .nav-and-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+    }
+    .nav-and-icons i {
+        margin-right: 10px;
+    }
+    .form-and-info-block > ul:last-child{
+        display: none;
+    }
+    .top-logo-search-info-block svg, .top-logo-search-info-block > ul:first-child {
+        display: none;
+    }
+    .form-and-info-block, .form-and-info-block form, .top-logo-search-info-block input[type="search"] {
+        width: 100%;
+    }
+}

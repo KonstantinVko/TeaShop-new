@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035278e4-be1c-4149-aa86-34baa20f4773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/left-ar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/right-ar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tea-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tea-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tea-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tea-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NEW-TEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NEW-TEA.iml" afterDir="false" />
+    <list default="true" id="035278e4-be1c-4149-aa86-34baa20f4773" name="Default Changelist" comment="almost done carousel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -112,8 +102,18 @@
       <workItem from="1610310935565" duration="6131000" />
       <workItem from="1610348100046" duration="24000" />
       <workItem from="1610348197881" duration="4784000" />
-      <workItem from="1610527523947" duration="6979000" />
+      <workItem from="1610527523947" duration="7899000" />
+      <workItem from="1610608180307" duration="15864000" />
+      <workItem from="1610633904573" duration="1154000" />
     </task>
+    <task id="LOCAL-00001" summary="almost done carousel">
+      <created>1610545503116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610545503116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="almost done carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost done carousel" />
   </component>
 </project>
